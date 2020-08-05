@@ -4,14 +4,14 @@ subtitle: 南岩 # 你的站点的副标题
 description:  # 你的站点的描述
 keywords:  # 你的站点的关键字
 author: 南岩 # 你的昵称/名字
-language:   # 你使用的语言，可以选en_US
+language: zh-CN   # 你使用的语言，可以选en-US
 timezone:  # 时区
 
 # 网址
 ## 如果你的网站放在一个子目录中，把url设置为'http://yoursite.com/child'和根作为'/child/'
 url: https://demo.yelow.ga/
 root: /
-permalink: :year/:month/:day/:title/ # 文章永久链接的格式
+permalink: posts/:abbrlink.html # 文章永久链接的格式
 permalink_defaults:
 
 # Directory
@@ -35,7 +35,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
@@ -75,5 +75,32 @@ theme: matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:HenryHe613/hexo-matery-demo.git
+  repository: git@e.coding.net:atasgayb/public/matery_demo.git
   branch: master
+
+
+prism_plugin:
+  enable: true
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false    # default false
+  custom_css:
+
+
+search:
+  path: search.xml
+  field: post
+
+
+abbrlink:
+	alg: crc16   #算法： crc16(default) and crc32
+	rep: dec     #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
+	drafts: false   #(true)Process draft,(false)Do not process draft. false(default) 
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+     enable: true  #true(default)
+     depth:        #3(default)
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.

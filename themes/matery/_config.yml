@@ -554,7 +554,7 @@ instantpage:
   enable: true
 
 # banner 是否每日切换.
-# 若为 false, 则 banner 默认为 /medias/banner/0.jpg
+# 若为 true, 则 banner 默认为 /medias/banner/0.jpg
 banner:
   enable: true
 
