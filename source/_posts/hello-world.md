@@ -5,7 +5,7 @@ img: /source/images/xxx.jpg  # 非必填。默认值：自动分配
 top: false  # 非必填
 cover: false  # 非必填
 coverImg: /images/1.jpg  # 非必填。默认值：img值
-password: bbda95f52f4761b669832604628b733a4879221071d4758c822e489cebbb5d3bf194a1018686ebd32491b794628dcc7f8a3000d634c14fcf73bd91829efe792a  # 非必填
+# password: bbda95f52f4761b669832604628b733a4879221071d4758c822e489cebbb5d3bf194a1018686ebd32491b794628dcc7f8a3000d634c14fcf73bd91829efe792a  # 非必填
 toc: true  # 非必填。默认值：true
 mathjax: false  # 非必填。默认值：false
 summary: 密码：nanyan  # 非必填。默认值：文章内容
@@ -27,6 +27,7 @@ date: 2020-08-06 09:25:00  # 自动生成
 
 # 特别之处
 - [X] 更改默认Hexo主题为`Matery`，并去除Hexo默认`landscape`主题。
+- [X] 删除`Matery`主题文件夹下的`.git`仓库，便于文件同步。
 - [X] 自带`categories`,`tags`,`about`,`contant`,`friend`页面。
 - [X] 自带`hexo-prism-plugin`代码高亮插件，并默认禁用Hexo官方代码高亮。
 - [X] 自带`hexo-generator-search`搜索插件。
@@ -38,6 +39,8 @@ date: 2020-08-06 09:25:00  # 自动生成
 - [X] 去除`Banner`图片每日更新，提高博客辨识度。
 - [X] 修改`Banner`图片默认格式为`.jpeg`，减小图片体积，加快博客加载。
 - [ ] 修改`Banner`图片默认格式为更快的`.webp`。`.webp`文件在IOS端兼容性不太好。暂时不添加该功能。
+- [ ] 汉化`Hexo`根目录下的`_config.yml`配置文件。 （感谢：Neutron做出贡献）
+- [ ] 汉化`Matery`根目录下的`_config.yml`配置文件。 （感谢：Neutron做出贡献）
 
 
 # 需要自定义
