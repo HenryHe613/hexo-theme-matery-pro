@@ -21,8 +21,8 @@
 - [X] 去除`Banner`图片每日更新，提高博客辨识度。
 - [X] 修改`Banner`图片默认格式为`.jpeg`，减小图片体积，加快博客加载。
 - [ ] 修改`Banner`图片默认格式为更快的`.webp`。`.webp`文件在IOS端兼容性不太好。暂时不添加该功能。
-- [ ] 汉化`Hexo`根目录下的`_config.yml`配置文件。 （感谢：Neutron做出贡献）
-- [ ] 汉化`Matery`根目录下的`_config.yml`配置文件。 （感谢：Neutron做出贡献）
+- [ ] 汉化`Hexo`根目录下的`_config.yml`配置文件。 （感谢：Neutron做出贡献neutronfair@qq.com）
+- [ ] 汉化`Matery`根目录下的`_config.yml`配置文件。 （感谢：Neutron做出贡献neutronfair@qq.com）
 
 
 # 需要自定义
