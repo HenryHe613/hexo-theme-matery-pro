@@ -491,11 +491,13 @@ reprint:
   default: cc_by
 
 # DaoVoice online contact
+# DaoVoice在线聊天
 daovoice:
   enable: false
   app_id:
 
 # Tidio online contact
+# Tidio在线聊天
 tidio:
   enable: false
   public_key:
