@@ -27,6 +27,7 @@ date: 2020-08-06 09:25:00  # 自动生成
 
 # 特别之处
 - [X] 更改默认Hexo主题为`Matery`，并去除Hexo默认`landscape`主题。
+- [X] 删除`Matery`主题文件夹下的`.git`仓库，便于文件同步。
 - [X] 自带`categories`,`tags`,`about`,`contant`,`friend`页面。
 - [X] 自带`hexo-prism-plugin`代码高亮插件，并默认禁用Hexo官方代码高亮。
 - [X] 自带`hexo-generator-search`搜索插件。
